@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Because it prevents you from having to scan both file versions line by line to find where the bug specifically is.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It allows you reference code and check what changed between when last it was working, and when it wasn't or how you previously did something even if you've cleaned up the code and deleted the implementation you're looking for.
+	It also makes it a lot easier to work on code if you're collaborating with multiple developers at the same time on a file. One person's save of the code might accidentally delete other peoples work(e.g. they didn't start modifying the most recent version of the file). 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The primary advantage is that you can commit the code when it is at a stable point instead of arbitrarily. Commits at random times might not have complete implementations of a file as you might have still been working on a segment
+	The primary disadvantage is that you need to deliberately do it. If you forgot and something happpens, you will have no previous version of your code to reference.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because with code, files can be dependent on each other as the content of one file contains classes and methods that the other files need to run. The files are consequently only useful together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You use git log to log all the changes to the repository(commit history). You use git diff to see what has changed from one commit to another for all the files that make up the repo.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control makes you more confident to make risky changes because you are sure you can recover your project back to a stable status if things are no longer working
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To create a wonderful github profile..
